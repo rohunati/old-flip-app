@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Manager.h"
 
 @interface UnoAppDelegate : UIResponder <UIApplicationDelegate>
 
-@property (strong, nonatomic) UIWindow *window;
+@property (nonatomic, strong) UIWindow *window;
+@property (nonatomic, strong) Manager *manager;
+
 
 @end
